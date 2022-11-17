@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/silo9506/react-page/static/css/main.716e2f61.css",
+    "main.js": "/silo9506/react-page/static/js/main.29d9ad56.js",
+    "static/media/adoption.jpg": "/silo9506/react-page/static/media/adoption.eb3f0dc2db90342041bb.jpg",
+    "static/media/backgroundMenu.png": "/silo9506/react-page/static/media/backgroundMenu.5a4ea2a34c708a6be10c.png",
+    "static/media/catanddog.jpg": "/silo9506/react-page/static/media/catanddog.51e5d5f9822b67e90b00.jpg",
+    "static/media/shelterdog.jpg": "/silo9506/react-page/static/media/shelterdog.94d64195f77cd45d9d17.jpg",
+    "static/media/shelter05.png": "/silo9506/react-page/static/media/shelter05.38afbe8d97907aa178b4.png",
+    "static/media/wrapper.jpg": "/silo9506/react-page/static/media/wrapper.ab4c297af540d0c4d3d1.jpg",
+    "static/media/banner01.png": "/silo9506/react-page/static/media/banner01.ac07cb07df4f7a9c20dd.png",
+    "static/media/banner02.png": "/silo9506/react-page/static/media/banner02.d19119a2ec072ad56ba3.png",
+    "static/media/slogan.png": "/silo9506/react-page/static/media/slogan.50146c68432959812781.png",
+    "static/media/shelter07.png": "/silo9506/react-page/static/media/shelter07.431f23c66c1769e93018.png",
+    "static/media/shelter06.png": "/silo9506/react-page/static/media/shelter06.4f6ac0febec05395402d.png",
+    "static/media/naver_cafe.png": "/silo9506/react-page/static/media/naver_cafe.b04d375685279223e7b0.png",
+    "static/media/banner03.png": "/silo9506/react-page/static/media/banner03.0d18d8c3c13b3af14112.png",
+    "static/media/science_logo.png": "/silo9506/react-page/static/media/science_logo.314234d3dd2ce3555210.png",
+    "static/media/shelter04.png": "/silo9506/react-page/static/media/shelter04.a6ddcd6057a0babd037e.png",
+    "static/media/shelter03.png": "/silo9506/react-page/static/media/shelter03.20a16622db1eae33f51d.png",
+    "static/media/shelter01.png": "/silo9506/react-page/static/media/shelter01.87f379a0990ac35b68e8.png",
+    "static/media/title_logo01.png": "/silo9506/react-page/static/media/title_logo01.cea03334b97f3491fb3e.png",
+    "static/media/seoul_simbol.jpg": "/silo9506/react-page/static/media/seoul_simbol.2adb220e6c42a77827f1.jpg",
+    "static/media/shelter02.png": "/silo9506/react-page/static/media/shelter02.872175d292017136007d.png",
+    "static/media/cat.svg": "/silo9506/react-page/static/media/cat.887ec88dd9732e9db4f86425ef8e6b47.svg",
+    "static/media/dog.svg": "/silo9506/react-page/static/media/dog.07313c5204c1823ad7d3675894f989a8.svg",
+    "static/media/speaker.svg": "/silo9506/react-page/static/media/speaker.6872153c01ade65bc609ee6bccd7f0e5.svg",
+    "index.html": "/silo9506/react-page/index.html",
+    "static/media/x.svg": "/silo9506/react-page/static/media/x.fec748239bc5a6795b052d1f37a0c87b.svg",
+    "static/media/hamburger.svg": "/silo9506/react-page/static/media/hamburger.046a8b19dd9d111bf1bce0b9d5ebafa9.svg",
+    "main.716e2f61.css.map": "/silo9506/react-page/static/css/main.716e2f61.css.map",
+    "main.29d9ad56.js.map": "/silo9506/react-page/static/js/main.29d9ad56.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.716e2f61.css",
+    "static/js/main.29d9ad56.js"
+  ]
+}
