@@ -2,7 +2,7 @@
   "name": "full-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/silo9506/react-page/",
+  "homepage": "https://silo9506.github.io/react-page/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
