@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-page/static/css/main.716e2f61.css",
-    "main.js": "/react-page/static/js/main.028a8f50.js",
+    "main.js": "/react-page/static/js/main.535a0281.js",
     "static/media/adoption.jpg": "/react-page/static/media/adoption.eb3f0dc2db90342041bb.jpg",
     "static/media/backgroundMenu.png": "/react-page/static/media/backgroundMenu.5a4ea2a34c708a6be10c.png",
     "static/media/catanddog.jpg": "/react-page/static/media/catanddog.51e5d5f9822b67e90b00.jpg",
@@ -29,10 +29,10 @@
     "static/media/x.svg": "/react-page/static/media/x.fec748239bc5a6795b052d1f37a0c87b.svg",
     "static/media/hamburger.svg": "/react-page/static/media/hamburger.046a8b19dd9d111bf1bce0b9d5ebafa9.svg",
     "main.716e2f61.css.map": "/react-page/static/css/main.716e2f61.css.map",
-    "main.028a8f50.js.map": "/react-page/static/js/main.028a8f50.js.map"
+    "main.535a0281.js.map": "/react-page/static/js/main.535a0281.js.map"
   },
   "entrypoints": [
     "static/css/main.716e2f61.css",
-    "static/js/main.028a8f50.js"
+    "static/js/main.535a0281.js"
   ]
 }
