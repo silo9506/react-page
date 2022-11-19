@@ -1,14 +1,19 @@
 {
   "files": {
     "main.css": "/react-page/static/css/main.716e2f61.css",
-    "main.js": "/react-page/static/js/main.e804cfdb.js",
+    "main.js": "/react-page/static/js/main.ae39fb11.js",
     "static/media/adoption.jpg": "/react-page/static/media/adoption.eb3f0dc2db90342041bb.jpg",
     "static/media/backgroundMenu.png": "/react-page/static/media/backgroundMenu.5a4ea2a34c708a6be10c.png",
     "static/media/catanddog.jpg": "/react-page/static/media/catanddog.51e5d5f9822b67e90b00.jpg",
     "static/media/shelterdog.jpg": "/react-page/static/media/shelterdog.94d64195f77cd45d9d17.jpg",
+    "static/media/videohow03.jpg": "/react-page/static/media/videohow03.af6f34efa7beb38ec9de.jpg",
+    "static/media/videohow01.jpg": "/react-page/static/media/videohow01.4dbf0279bebb51105ea3.jpg",
+    "static/media/videohow02.jpg": "/react-page/static/media/videohow02.a797a5a027589c9fba9d.jpg",
     "static/media/shelter05.png": "/react-page/static/media/shelter05.38afbe8d97907aa178b4.png",
+    "static/media/videocard01.jpg": "/react-page/static/media/videocard01.b0f32073629068f3e9ed.jpg",
     "static/media/wrapper.jpg": "/react-page/static/media/wrapper.ab4c297af540d0c4d3d1.jpg",
     "static/media/banner01.png": "/react-page/static/media/banner01.ac07cb07df4f7a9c20dd.png",
+    "static/media/playground reul.png": "/react-page/static/media/playground reul.1951be492ab725fa11ed.png",
     "static/media/banner02.png": "/react-page/static/media/banner02.d19119a2ec072ad56ba3.png",
     "static/media/slogan.png": "/react-page/static/media/slogan.50146c68432959812781.png",
     "static/media/shelter07.png": "/react-page/static/media/shelter07.431f23c66c1769e93018.png",
@@ -29,10 +34,10 @@
     "static/media/x.svg": "/react-page/static/media/x.fec748239bc5a6795b052d1f37a0c87b.svg",
     "static/media/hamburger.svg": "/react-page/static/media/hamburger.046a8b19dd9d111bf1bce0b9d5ebafa9.svg",
     "main.716e2f61.css.map": "/react-page/static/css/main.716e2f61.css.map",
-    "main.e804cfdb.js.map": "/react-page/static/js/main.e804cfdb.js.map"
+    "main.ae39fb11.js.map": "/react-page/static/js/main.ae39fb11.js.map"
   },
   "entrypoints": [
     "static/css/main.716e2f61.css",
-    "static/js/main.e804cfdb.js"
+    "static/js/main.ae39fb11.js"
   ]
 }
