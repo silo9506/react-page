@@ -7,7 +7,8 @@ const DataKey = process.env.REACT_APP_ANIMAL_DATA_KEY;
 const AnimalKey = process.env.REACT_APP_ANIMAL_DECHART;
 
 const animalsInstance = axios.create({
-  baseURL: "http://apis.data.go.kr/1543061/abandonmentPublicSrvc",
+  baseURL:
+    "https://silo9506-proxy.herokuapp.com/http://apis.data.go.kr/1543061/abandonmentPublicSrvc",
   method: "get",
   params: {
     serviceKey: AnimalKey,

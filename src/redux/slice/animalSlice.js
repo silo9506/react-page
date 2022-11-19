@@ -54,6 +54,7 @@ const animalSlice = createSlice({
       state.data.cat = result.filter((animal) => animal.SPCS === "CAT");
       state.data.dog = result.filter((animal) => animal.SPCS === "DOG");
       state.data.total = result;
+      console.log(result);
     });
 
     builder.addCase(seoulAniamlData.rejected, (state, actions) => {

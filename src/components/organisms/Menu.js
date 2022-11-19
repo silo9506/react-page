@@ -65,9 +65,9 @@ Copyright © Ministry of the Interior and Safety. All Rights reserved.`}
             </Link>
             <Link
               to={"service/animalhospital"}
-              state={{ title: "우리동네 동물병원" }}
+              state={{ title: "서울시 반려동물시민학교" }}
             >
-              <li onClick={close}>우리동네 동물병원</li>
+              <li onClick={close}>서울시 반려동물시민학교</li>
             </Link>
           </Navitems>
           <Exit onClick={close}>
@@ -172,4 +172,5 @@ const Exit = styled.button`
     }
   }
 `;
+
 export default Menu;

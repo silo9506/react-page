@@ -35,6 +35,13 @@ const Vedio = styled.div`
   padding: 0 30px;
   height: 500px;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  iframe {
+    max-width: 800px;
+    border-radius: 8px;
+    max-height: 450px;
+  }
 `;
 
 const Slogan = styled.div`
@@ -51,6 +58,7 @@ const Vision = styled.div`
   padding: 50px 30px;
   img {
     height: 300px;
+    max-width: 1000px;
     width: 100%;
   }
 `;

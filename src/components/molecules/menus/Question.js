@@ -4,6 +4,8 @@ import q from "../../../assets/jpg/question.png";
 import answer from "../../../assets/jpg/answer.png";
 import { questionSliceAction } from "../../../redux/slice/questionSlice";
 import { useDispatch, useSelector } from "react-redux";
+import BannerSlide from "../BannerSlide";
+
 const Question = () => {
   const { change } = questionSliceAction;
   const dispatch = useDispatch();
@@ -17,6 +19,10 @@ const Question = () => {
 
   return (
     <Container>
+      <Bannerbox>
+        <BannerSlide />
+      </Bannerbox>
+
       <Accordion>
         {accordionData.map(({ id, title, content }, index) => {
           return (
@@ -44,7 +50,12 @@ const Container = styled.div`
   min-height: 50vh;
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
+`;
+const Bannerbox = styled.div`
+  max-width: 1000px;
+  padding: 50px;
 `;
 
 const Accordion = styled.ul`
@@ -53,6 +64,7 @@ const Accordion = styled.ul`
   max-width: 1000px;
   width: 100%;
   padding: 50px;
+  padding-top: 0px;
   @media screen and (max-width: 450px) {
     padding: 50px 5px;
   }
