@@ -25,7 +25,6 @@ function Index() {
         containerWidth={"100%"}
         containerHeight={"100%"}
         pageOnChange={handlePageChange}
-        // onBeforePageScroll={handleBeforePageChange}
         customPageNumber={isCrrentPage}
       >
         <Section01 />
@@ -47,59 +46,3 @@ const Container = styled.div`
     padding-bottom: 80px;
   }
 `;
-
-// import { useEffect, useRef } from "react";
-// import styled from "styled-components";
-// import BannerSlide from "../molecules/BannerSlide";
-// import ReactPageScroller from "react-page-scroller";
-// const Index = () => {
-//   return (
-//     <Container>
-//       <Sectionbox>
-//         <Tset1></Tset1>
-//       </Sectionbox>
-//       <Sectionbox>
-//         <Tset2></Tset2>
-//       </Sectionbox>
-//       <Sectionbox>
-//         <Tset3></Tset3>
-//       </Sectionbox>
-//     </Container>
-//   );
-// };
-
-// export default Index;
-
-// const Container = styled.div`
-//   /* padding: 20px 0; */
-//   width: 100%;
-//   height: 100vh;
-//   overflow-y: scroll;
-//   /* scroll-snap-type: y mandatory; */
-//   display: flex;
-//   flex-direction: column;
-// `;
-
-// const Sectionbox = styled.div`
-//   flex-shrink: 0;
-//   /* scroll-snap-align: start; */
-//   /* scroll-snap-stop: always; */
-//   /* scroll-behavior: smooth; */
-//   height: 100%;
-// `;
-
-// const Tset1 = styled.div`
-//   background: green;
-//   width: 100%;
-//   height: 100%;
-// `;
-// const Tset2 = styled.div`
-//   background: blue;
-//   width: 100%;
-//   height: 100%;
-// `;
-// const Tset3 = styled.div`
-//   background: yellow;
-//   width: 100%;
-//   height: 100%;
-// `;

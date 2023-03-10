@@ -4,7 +4,7 @@ import { ReactComponent as Speaker } from "../../assets/svg/speaker.svg";
 import Logo from "../atoms/Logo";
 import NavMenu from "../molecules/NavMenu";
 
-const Topnav = () => {
+const Topnav = ({ children }) => {
   return (
     <Container>
       <TopBox>
@@ -23,6 +23,7 @@ const Topnav = () => {
             <SeoulMenu>정보공개</SeoulMenu>
             <SeoulMenu>분야별정보</SeoulMenu>
           </SeoulMenuBox>
+          {children}
         </Wrapper>
       </TopBox>
 
@@ -83,7 +84,6 @@ const SeoulMenuBox = styled.div`
 
 const SeoulMenu = styled.button`
   padding: 0 10px;
-  cursor: pointer;
   border: none;
   background-color: unset;
   height: 100%;

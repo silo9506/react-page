@@ -44,12 +44,13 @@ function App() {
   return (
     <Container pathname={pathname}>
       <Menu ondisplay={ondisplay} close={() => closeMenu()} />
-      <Topnav />
+      <Topnav></Topnav>
       <Contents>
         <Logobox pathname={pathname}>
           <Logo />
         </Logobox>
         <Menubox onClick={() => dispatch(open())}>
+          Click
           <Hamburger />
         </Menubox>
         <Outlet />
@@ -88,6 +89,7 @@ const Logobox = styled.div`
     pathname.includes("/service") ? "none" : "block"};
 `;
 const Menubox = styled.div`
+  color: white;
   top: 80px;
   right: 20px;
   position: fixed;
@@ -102,14 +104,16 @@ const Menubox = styled.div`
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  font-size: 3px;
   svg {
     width: 100%;
     height: 100%;
     opacity: 0;
   }
   &:hover {
+    font-size: 0;
     transform: scale(2, 2);
-    transition: all 0.5s;
+    transition: transform 0.5s;
     svg {
       transition: all linear 0.5s;
       opacity: 1;

@@ -54,9 +54,6 @@ Copyright © Ministry of the Interior and Safety. All Rights reserved.`}
             <Link to={"service/q"} state={{ title: "자주묻는질문" }}>
               <li onClick={close}>자주묻는질문</li>
             </Link>
-            <Link to={"service/notice"} state={{ title: "공지사항" }}>
-              <li onClick={close}>공지사항</li>
-            </Link>
             <Link
               to={"service/animalplay"}
               state={{ title: "서울시 반려견놀이터" }}
@@ -149,8 +146,15 @@ const Navitems = styled.ul`
     margin-bottom: 32px;
     transition: color 0.3s ease;
   }
+  li:hover {
+    font-weight: 900;
+    transition: font-weight 1s ease-out;
+  }
 `;
 const Exit = styled.button`
+  position: fixed;
+  right: 20px;
+  top: 80px;
   width: 25px;
   height: 25px;
   padding: 2.5px;
