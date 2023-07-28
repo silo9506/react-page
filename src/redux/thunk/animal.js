@@ -8,7 +8,7 @@ const AnimalKey = process.env.REACT_APP_ANIMAL_DECHART;
 
 const animalsInstance = axios.create({
   baseURL:
-    "https://silo9506-proxy.herokuapp.com/http://apis.data.go.kr/1543061/abandonmentPublicSrvc",
+    "https://silo9506.herokuapp.com/http://apis.data.go.kr/1543061/abandonmentPublicSrvc",
   method: "get",
   params: {
     serviceKey: AnimalKey,
@@ -21,7 +21,7 @@ export const seoulAnimalPhoto = createAsyncThunk(
   async () => {
     const result = await axios({
       mathod: "get",
-      url: `https://silo9506-proxy.herokuapp.com/http://openapi.seoul.go.kr:8088/${PhotoKey}/json/TbAdpWaitAnimalPhotoView/1/999`,
+      url: `https://silo9506.herokuapp.com/http://openapi.seoul.go.kr:8088/${PhotoKey}/json/TbAdpWaitAnimalPhotoView/1/999`,
     });
 
     return result;
@@ -33,7 +33,7 @@ export const seoulAniamlData = createAsyncThunk(
   async () => {
     const result = await axios({
       mathod: "get",
-      url: `https://silo9506-proxy.herokuapp.com/http://openapi.seoul.go.kr:8088/${DataKey}/json/TbAdpWaitAnimalView/1/999/`,
+      url: `https://silo9506.herokuapp.com/http://openapi.seoul.go.kr:8088/${DataKey}/json/TbAdpWaitAnimalView/1/999/`,
     });
 
     return result;
